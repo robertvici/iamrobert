@@ -13,15 +13,17 @@
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
+<!--
+   Google Fonts 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+-->
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+<!--  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">-->
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+<!--  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">-->
+<!--  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">-->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
@@ -35,7 +37,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body style="font-family:monospace">
 
   <!-- ======= Mobile nav toggle button ======= -->
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -82,25 +84,36 @@
              <div class="row">
           <div class="col-lg-1">
           </div>
-            <div class="col-lg-10">
-          <p class="font-justify">
+            <div class="col-lg-10" style="text-align: justify">
+          <p>
               <p>On December 2019, I graduated from Master of Data Science at Monash University, Australia. I had been recognized as the only student who graduated with full GPA (although personally I don't think GPA is important). During the 2 years master's study, I have achieved all the available academic awards at least once at Monash University including awards as the only student who achieve perfect marks for 2 units in the history of Data Science Course history. Outside the formal academic routine, I have participated in data science-related competition and managed to win 2 competitions namely Monash Datathon sponsored by National Australia Bank and FIT Kaggle Competition.
               </p>
                <p> I am currently a Data Scientist in the recommendation system team at one of the SEA unicorn companies. My daily routine is reading papers, build model, optimize model, analysis models and impact, analytics and a list of small tasks related to data science. During the weekends, I am a contributor at Medium (please check some of my writings here). I am also a contributor of one of the well-known deep learning library, Keras.</p>
                 <p>
                  In the last 2 years I have been involved in many data science related projects including but n
                 </p>
-                 
-                 <p>
-                <b>Skills: </b> Topic Modelling, Text Similarity, Sentiment Analysis, Recommender System
-              <br><b>Tools: </b> Python, R, Pyspark, SQL, Tableau, Ms.Power BI, Redash, Bigquery, Google Cloud Platform (GCP)
-              <br><b>Interests:</b> Start-up
-                </p>
+                 <table style="width:100%">
+
+  <tr>
+    <td style="font-weight: bold">Skills</td>
+    <td>: Topic Modelling, Text Similarity, Sentiment Analysis, Recommender System</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold">Tools</td>
+    <td>: Python, R, Pyspark, SQL, Tableau, Ms.Power BI, Redash, Bigquery, Google Cloud Platform (GCP)</td>
+  </tr>
+                       <tr>
+    <td style="font-weight: bold">Interests</td>
+    <td>: Start-up</td>
+  </tr>
+</table>
+                <br>
                  <p>I am open 24/7 for any promising and challenging opportunity in data science related field.</p>
                 <p style="font-size: 10px">Fun fact about myself is I don't have last name, so my fullname is only Robert :). I know I know, it sounds a bit unusual Hehehe</p>
         </div>
               <div class="col-lg-1">   
             </div>
+        </div>
         </div>
     </section><!-- End About Section -->
 
@@ -127,48 +140,61 @@
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
          
-           <div class="col-lg-4 col-md-6 portfolio-item filter-article">
+           <div class="col-lg-4 col-md-6 portfolio-item filter-article filter-article">
             <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/article/image-1.jpg" class="img-fluid" style="border: 1px solid #b8a07e" alt="">
+               <div class="card shadow-sm mb-3" style="min-width: 12rem;border-color: #b8a07e">
+                        <div class="embed-responsive embed-responsive-16by9">
+                        <img class="card-img-top embed-responsive-item p-2" src=assets/img/portfolio/article/image-1.jpg>
+                        </div>
               <div class="portfolio-info">
                 <h4>Uncovering Indonesia Top E-Commerce - Perspective from Twitter</h4>
                   <p>An analysis on the tweets from Tokopedia, Shopee, Bukalapak, Lazada and Bliblidotcom</p>
-                  <b>Text Analysis | Visualization | Tableau | Python</b>
+                  <h5>Text Analysis | Visualization | Tableau | Python</h5>
                 <div class="portfolio-links">
                   <a href="https://towardsdatascience.com/uncovering-top-e-commerce-in-indonesia-perspective-from-twitter-3312bc617c00" target="_blank"><i class="bx bxl-medium"></i></a>
                 </div>
               </div>
-            </div>
+              </div>
           </div>
+            </div>
+
             
                      
             
             <div class="col-lg-4 col-md-6 portfolio-item filter-article filter-ml">
             <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/article/image-2.jpg" class="img-fluid" style="border: 1px solid #b8a07e" alt="">
+                <div class="card shadow-sm mb-3" style="min-width: 12rem;border-color: #b8a07e">
+                        <div class="embed-responsive embed-responsive-16by9">
+                        <img class="card-img-top embed-responsive-item p-2" src=assets/img/portfolio/article/image-2.jpg>
+                        </div>
               <div class="portfolio-info">
                 <h4>StayAtHome - A Story of COVID-19</h4>
                   <p>An Analysis on StayAtHome-related tweets by Applying Topic Modelling</p>
-                  <b>Text Analysis | Topic Modelling | LDA | Tableau | Python</b>
+                  <h5>Text Analysis | Topic Modelling | LDA | Tableau | Python</h5>
                 <div class="portfolio-links">
 <a href="https://towardsdatascience.com/stayathome-a-story-of-covid-19-6aeeba2b6c?source=friends_link&sk=8aa9e92e56a3d3bc5609762af7448a73" target="_blank"><i class="bx bxl-medium"></i></a>
                     <a href="https://towardsdatascience.com/stayathome-a-story-of-covid-19-6aeeba2b6c?source=friends_link&sk=8aa9e92e56a3d3bc5609762af7448a73" target="_blank"><i class="bx bxl-github"></i></a>
                 </div>
+                                  </div>
               </div>
             </div>
           </div>
             
         <div class="col-lg-4 col-md-6 portfolio-item filter-featured">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/featured/image-1.jpg" class="img-fluid" style="border: 1px solid #b8a07e" alt="">
+                <div class="card shadow-sm mb-3" style="min-width: 12rem;border-color: #b8a07e">
+                        <div class="embed-responsive embed-responsive-16by9">
+                        <img class="card-img-top embed-responsive-item p-2" src=assets/img/portfolio/featured/image-1.jpg alt="Crystal Widjaja featured">
+                        </div>
               <div class="portfolio-info">
                 <h4> Best and brightest garner this year’s Cliff Bellamy Awards</h4>
                   <p>Cliff Bellamy Awards Night</p>
-                  <b>Data Science | Awards</b>
+                  <h5>Data Science | Awards</h5>
                 <div class="portfolio-links">
                   <a href="https://www.monash.edu/it/about-us/news-and-events/latest/articles/2019/best-and-brightest-garner-this-years-cliff-bellamy-awards?fbclid=IwAR3dFcSfS8STZaU2y62a9aw5x4DSs1xKDu1LmCA04MvcOrRXw_O7q2FMmikmik" target="_blank"><i class="bx bx-link"></i></a>
                   
                   </div>
+                                  </div>
               </div>
             </div>
           </div>
@@ -191,7 +217,7 @@
           <div class="col-lg-1">
           </div>
             <div class="col-lg-10">
-                <ul style="font-size: 13px">
+                <ul style="font-size: 13px; text-align: justify">
                     <li>
                         2019: The Winner of FIT5149 Kaggle Competition awarded Faculty of Information Technology, Monash University <b>
                         <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1">[Certificate]</a>
