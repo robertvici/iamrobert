@@ -159,20 +159,34 @@
 
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
+    // Porfolio isotope and filter
+  $(window).on('load', function() {
+    var courseIsotope = $('.course-container').isotope({
+      itemSelector: '.course-item'
+    });
+
+    $('#course-flters li').on('click', function() {
+      $("#course-flters li").removeClass('filter-active');
+      $(this).addClass('filter-active');
+
+      courseIsotope.isotope({
+        filter: $(this).data('filter')
+      });
+      aos_init();
+    });
+
+    // Initiate venobox (lightbox feature used in portofilo)
+  $(document).ready(function() {
+    $('.venobox').venobox({
+      'share': false
+    });
   });
 
-  // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
+    // Initiate aos_init() function
+    aos_init();
+
   });
+
+
 
 })(jQuery);
