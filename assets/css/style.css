@@ -373,6 +373,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 0px;
+  padding: 4px;
 }
 
 .portfolio #portfolio-flters {
@@ -484,6 +485,7 @@ section {
 --------------------------------------------------------------*/
 .course .course-item {
   margin-bottom: 0px;
+  padding: 5px;
 }
 
 .course #course-flters {
