@@ -662,68 +662,7 @@
 				</section><!-- End Portfolio Section -->
 
 
-				<!-- ======= Award Section ======= -->
-				<section id="hobby" class="hobby">
-					<div class="container" data-aos="fade-up">
-
-						<div class="section-title">
-							<h2>Hobby</h2>
-							<p style="font-style: italic">I have been addicted to visiting campuses in the world, so far I have visited 24 well-known campuses in over 11 cities in 4 countries. My next stop will be the campuses in China</p>
-						</div>
-
-						<div class="row">
-							<div id="map" style="width:100%; height: 500px;"></div>
-							<script>
-								var addressPoints = [
-								[22.3375, 114.263, "<b>Hong Kong University of Science and Technology</b>"],
-								[22.3345, 114.1780, "<b>Hong Kong Baptist University</b>"],
-								[1.2907, 103.7727, "<b>National University of Singapore</b>"],
-								[3.587806, 98.690757, "<b>STMIK Mikroskil</b>"],
-								[3.561933, 98.656342, "<b>University of North Sumatera</b>"],
-								[3.609066, 98.717422, "<b>University of Medan</b>"],
-								[-6.362817, 106.826919, "<b>University of Indonesia</b>"],
-								[-6.201757, 106.780142, "<b>Bina Nusantara University</b>"],
-								[-6.169104, 106.789070, "<b>Tarumanegara University</b>"],
-								[-6.228113, 106.610302, "<b>Pelita Harapan University</b>"],
-								[-7.265071, 112.758400, "<b>Airlangga University</b>"],
-								[-7.286260, 112.763814, "<b>Sepuluh Nopember Institute of Technology</b>"],
-								[-3.967489, 122.5947, "<b>University of Halu Oleo</b>"],
-								[-37.910645, 145.135605, "<b>Monash University</b>"],
-								[-37.798083, 144.960309, "<b>The University of Melbourne</b>"],
-								[-37.809184, 144.964377, "<b>RMIT University</b>"],
-								[-37.817855, 144.964056, "<b>Victoria University</b>"],
-								[-37.820723, 145.038212, "<b>Swinburne University</b>"],
-								[-37.7218, 145.0479, "<b>La Trobe University</b>"],
-								[-38.1439, 144.3603, "<b>Deakin University</b>"],
-								[-42.880556, 147.325, "<b>University of Tasmania</b>"],
-								[-33.888486, 151.187358, "<b>The University of Sydney</b>"],
-								[-33.917249, 151.231246, "<b>The University of New South Wales</b>"],
-								[-33.883255, 151.200580, "<b>University of Technology Sydney</b>"]
-								]
-
-								var map = L.map('map', {center: [-10, 103.851959], zoom: 2.5});
-								L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-									attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
-								}).addTo(map);
-
-								var markers = L.markerClusterGroup();
-
-								for (var i = 0; i < addressPoints.length; i++) {
-									var a = addressPoints[i];
-									var title = a[2];
-									var marker = L.marker(new L.LatLng(a[0], a[1]));
-									marker.bindPopup(title);
-									markers.addLayer(marker);
-								}
-								map.addLayer(markers);
-							</script>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-		</section><!-- End Award Section -->
+				
 
 	</main><!-- End #main -->
 
