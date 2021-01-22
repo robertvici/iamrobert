@@ -15,7 +15,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: monospace;
+  font-family: merriweather,Georgia,Times,serif;
 }
 
 /*--------------------------------------------------------------
@@ -297,7 +297,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  font-family: sans-serif;
+  font-family: merriweather,Georgia,Times,serif;
 }
 
 #hero .social-links a:hover {
@@ -694,7 +694,7 @@ section {
   background: #fff;
   color: #b8a07e;
   text-decoration: none;
-  font-family: sans-serif;
+  font-family: merriweather,Georgia,Times,serif;
 }
 
 #footer .copyright {
